@@ -25,5 +25,5 @@ For more information see the [docs for vueify](https://github.com/vuejs/vueify).
 
 ## TODO
 
-  * [] Convert coffeescript segments to es2015 
-  * [] Integrate with API
+  * [ ] Convert coffeescript segments to es2015 
+  * [ ] Integrate with API
