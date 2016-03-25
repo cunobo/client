@@ -1,21 +1,20 @@
 <template>
-  <div id="app">
-    <hello></hello>
-  </div>
+	<div class="main">
+    <title-bar :current-user="currentUser"></title-bar>
+	</div>
 </template>
 
 <script>
-import Hello from './components/Hello.vue'
+import TitleBar from './components/TitleBar.vue'
 
 export default {
   components: {
-    Hello
+    'title-bar': TitleBar
+  },
+  data () {
+    return {
+      currentUser: ''
+    }
   }
 }
 </script>
-
-<style>
-body {
-  font-family: Helvetica, sans-serif;
-}
-</style>
