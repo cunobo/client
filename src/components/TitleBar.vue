@@ -12,6 +12,7 @@
     padding-left: 20px;
   }
 
+
   .user-status {
     .button {
       min-width: 80px;
