@@ -6,11 +6,17 @@
   </form>
 </template>
 
-<script lang="coffee">
-  module.exports =
-    data: ->
+<script>
+export default {
+  data() {
+    return {
       shouldShowEditor: false
-    methods: 
-      showEditor: ->
-        @shouldShowEditor = true
+    }
+  },
+  methods: {
+    showEditor() {
+      return this.shouldShowEditor = true;
+    }
+  }
+}
 </script>
