@@ -2,6 +2,9 @@
 	<div class="main">
     <title-bar :current-user="currentUser"></title-bar>
 	</div>
+  <div class="container">
+    <router-view :current-user="currentUser"></router-view>
+  </div>
 </template>
 
 <script>

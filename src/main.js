@@ -12,7 +12,20 @@ Vue.use(Resource)
 // components
 import App from './App.vue'
 
+// Views
+import Home from './components/Home.vue'
+
 /* eslint-disable no-new */
 var router = new Router()
+
+router.map({
+  '/': {
+    component: Home
+  }
+})
+
+router.redirect({
+   '*': '/home'
+})
 
 router.start(App, "app")
