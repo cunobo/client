@@ -21,6 +21,13 @@ npm run lint
 npm test
 ```
 
+## Build Setup (Docker)
+
+``` bash
+docker-compose build
+docker-compose run --rm -p 8080:8080 client npm run dev
+```
+
 For more information see the [docs for vueify](https://github.com/vuejs/vueify).
 
 ## TODO
