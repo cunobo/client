@@ -5,10 +5,4 @@ client:
   command: npm run dev
   volumes:
     - .:/cunobo_client
-  volumes_from:
-    - node
-
-node:
-  image: busybox
-  volumes:
-    - node_modules:/node_modules
+    
