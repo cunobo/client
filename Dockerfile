@@ -6,5 +6,5 @@ ENV NODE_PATH ./node_modules
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
-ADD . $APP_HOM
+ADD . $APP_HOME
 
